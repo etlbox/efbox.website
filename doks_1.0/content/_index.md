@@ -1,9 +1,7 @@
 ---
-title : "Welcome to Doks"
+title : "Entity Framework Box"
 description: ""
-lead: "Congrats on setting up a new Doks project!"
-date: 2023-09-07T16:33:54+02:00
-lastmod: 2023-09-07T16:33:54+02:00
+lead: "Bridging ETLBox and Entity Framework with seamless DbContext extensions for efficient bulk operations!"
 draft: false
 images: []
 ---
