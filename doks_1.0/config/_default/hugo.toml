@@ -1,4 +1,4 @@
-title = "My Docs"
+title = "EFBox"
 baseurl = "/"
 canonifyURLs = false
 disableAliases = true
@@ -14,13 +14,13 @@ summarylength = 20 # 70 (default)
 
 # Multilingual
 defaultContentLanguage = "en"
-disableLanguages = ["de", "nl"]
+#disableLanguages = ["de", "nl"]
 defaultContentLanguageInSubdir = false
 
-copyRight = "Copyright (c) 2023 Hyas"
+copyRight = "Copyright (c) 2023 ETLBox Office Andreas Lennartz"
 
-[social]
-  twitter = "getdoks"
+#[social]
+#  twitter = "getdoks"
 
 [outputs]
   home = ["HTML", "RSS", "searchIndex"]
@@ -57,7 +57,7 @@ rel  = "sitemap"
   tag = "tags"
 
 [permalinks]
-  blog = "/blog/:slug/"
+# blog = "/blog/:slug/"
   docs = "/docs/:sections[1:]/:slug/"
 # docs = "/docs/1.0/:sections[1:]/:slug/"
 

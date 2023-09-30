@@ -1,8 +1,8 @@
 {
-  "name": "doks_1.0",
-  "version": "0.0.0",
-  "description": "Doks theme",
-  "author": "Hyas",
+  "name": "efbox",
+  "version": "1.0.0",
+  "description": "Entity Framework Box website.",
+  "author": "Andreas Lennartz",
   "license": "MIT",
   "scripts": {
     "dev": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --disableFastRender --baseURL=http://localhost --noHTTPCache",

@@ -40,7 +40,7 @@ image:
 
 # SEO (@hyas/seo)
 seo:
-  description: ""
+  description: "EFBox - Bridging ETLBox and Entity Framework with seamless DbContext extensions for efficient bulk operations"
   generate:
     title: true
     meta: true
@@ -50,8 +50,8 @@ seo:
       article: true
       breadcrumbs: true
   title_tag:
-    separator: "|"
-    home_text: ""
+    separator: "-"
+    home_text: "Giving Entity Framework the Bulk Operations it's been Missing!"
   og_article_types: [post, posts, blog, news, article, articles, event, events, course, courses]
   jsonld_article_types: [article, articles]
   jsonld_news_article_types: [news, updates]
