@@ -1,1 +1,23 @@
 // Put your custom SCSS code here
+@import '_bootstrap-icons.scss';
+
+/* Main Index page */
+.alteredColor {
+    background: #f3f3f3;
+}
+
+[data-bs-theme="dark"]  .alteredColor {
+    background: rgb(73, 80, 87) !important;
+  }
+
+.feature {
+    color: $blue;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin:0.25em;
+}
+
+
+.feature-subtitle {
+    color: $gray-700; 
+}

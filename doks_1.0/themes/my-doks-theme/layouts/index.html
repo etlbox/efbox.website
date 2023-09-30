@@ -7,43 +7,71 @@
     </div>
     <div class="col-lg-9 col-xl-8 text-center">
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
-      <a class="btn btn-primary btn-cta rounded-pill btn-lg my-3" href="/docs/{{ if site.Data.doks.docsVersioning }}{{ site.Data.doks.docsVersion }}/{{ end }}guides/example-guide/" role="button">{{ i18n "get-started" }}</a>
+      <a class="btn btn-primary btn-cta rounded-pill btn-lg my-3"
+        href="/docs/{{ if site.Data.doks.docsVersioning }}{{ site.Data.doks.docsVersion }}/{{ end }}guides/example-guide/"
+        role="button">{{ i18n "get-started" }}</a>
       {{ .Content }}
+      <p class="meta">
+        Giving Entity Framework the Bulk Operations it's been Missing!
+      </p>
     </div>
   </div>
 </section>
 {{ end }}
 
 {{ define "sidebar-prefooter" }}
-  {{ if site.Data.doks.backgroundDots -}}
-  <div class="d-flex justify-content-start">
-    <div class="bg-dots"></div>
-  </div>
-  {{ end -}}
-  {{ if eq $.Site.Language.LanguageName "English" }}
-  <section class="section section-md section-features">
-    <div class="container">
-      <div class="row justify-content-center text-center">
-        <div class="col-lg-5">
-          <h2 class="h4">Update content</h2>
-          <p>Edit <code>content/_index.md</code> to see this page change.</p>
-        </div>
-        <div class="col-lg-5">
-          <h2 class="h4">Add new content</h2>
-          <p>Add Markdown files to <code>content</code> to create new pages.</p>
-        </div>
-        <div class="col-lg-5">
-          <h2 class="h4">Configure your site</h2>
-          <p>Edit your config in <code>config/_default/hyas/doks.toml</code>.</p>
-        </div>
-        <div class="col-lg-5">
-          <h2 class="h4">Read the docs</h2>
-          <p>Learn more in the <a href="https://getdoks.org/">Docs</a>.</p>
-        </div>
+{{ if site.Data.doks.backgroundDots -}}
+<div class="d-flex justify-content-start">
+  <div class="bg-dots"></div>
+</div>
+{{ end -}}
+{{ if eq $.Site.Language.LanguageName "English" }}
+<section class="section section-md section-features alteredColor">
+  <div class="container">
+    <div class="row justify-content-center text-center">
+      <div class="feature">Features</div>
+      <h3 class="feature-subtitle">What you get with EFBox</h3>
+      <p> Entity Framework Extensions enriches your DbContext with robust bulk operations. <br />
+        Now effortlessly handle bulk insert, bulk update, bulk delete, and bulk merge, streamlining your data management
+        journey!</p>
+    </div>
+    <div class="row justify-content-center text-center">
+      <div class="col-lg-5 col-md-8">
+        <h2 class="h4"><i class="bi-toggles"></i>&nbsp;Performance Boost</h2>
+        <p>By extending your DbContext with bulk operations, EFBox brings a notable performance improvement to your
+          Entity Framework operations, ensuring smooth and rapid data processing.</p>
+      </div>
+      <div class="col-lg-5 col-md-8">
+        <h2 class="h4"><i class="bi-bezier2"></i>&nbsp;Write faster</h2>
+        <p>The bulk insert, update, delete operations are engineered to handle vast amounts of data, allowing you to
+          insert numerous records swiftly and efficiently.</p>
+      </div>
+      <div class="col-lg-5 col-md-8">
+        <h2 class="h4"><i class="bi-laptop"></i>&nbsp;Sync data (fast)</h2>
+        <p>With bulk merge, effortlessly synchronize your data, ensuring your datasets remain updated and consistent
+          across the board.</p>
       </div>
     </div>
-  </section>
-  {{ end }}
+    <div class="row justify-content-center text-center">
+      <div class="col-lg-5 col-md-8">
+        <h2 class="h4"><i class="bi-card-checklist"></i>&nbsp;Free to Use</h2>
+        <p>EFBox is free of charge for the most common databases, opening up a realm of robust data management
+          functionalities without any financial commitments.</a>.</p>
+      </div>
+      <div class="col-lg-5 col-md-8">
+        <h2 class="h4"><i class="bi-clouds"></i>&nbsp;Supports your database</h2>
+        <p>EFBox offers support to the most common used databases (SqlServer, MySql, and Postgres), encompassing all
+          versions to provide a versatile platform for your bulk operations needs.</a>.</p>
+      </div>
+      <div class="col-lg-5 col-md-8">
+        <h2 class="h4"><i class="bi-box"></i>&nbsp;ETLBox Foundation</h2>
+        <p>At its core, EFBox is built upon the robust and reliable framework of ETLBox, inheriting its well-structured
+          architecture for efficient data processing and management.</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
 {{ end }}
 
 {{ define "sidebar-footer" }}
@@ -51,8 +79,10 @@
 <section class="section section-md container-fluid bg-light">
   <div class="row justify-content-center text-center">
     <div class="col-lg-7">
-      <h2 class="mt-2">Start building with Doks today</h2>
-      <a class="btn btn-primary rounded-pill px-4 my-2" href="/docs/{{ if site.Data.doks.docsVersioning }}{{ site.Data.doks.docsVersion }}/{{ end }}prologue/introduction/" role="button">{{ i18n "get-started" }}</a>
+      <h2 class="mt-2">Speed up your application - now!</h2>
+      <a class="btn btn-primary rounded-pill px-4 my-2"
+        href="/docs/{{ if site.Data.doks.docsVersioning }}{{ site.Data.doks.docsVersion }}/{{ end }}prologue/introduction/"
+        role="button">{{ i18n "get-started" }}</a>
     </div>
   </div>
 </section>
