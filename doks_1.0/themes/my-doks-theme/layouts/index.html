@@ -9,8 +9,7 @@
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
       <a class="btn btn-primary btn-cta rounded-pill btn-lg my-3"
         href="/docs/{{ if site.Data.doks.docsVersioning }}{{ site.Data.doks.docsVersion }}/{{ end }}guides/getting-started/"
-        role="button">{{ i18n "get-started" }}</a>
-      {{ .Content }}
+        role="button">{{ i18n "get-started" }}</a>      
       <p class="meta">
         Giving Entity Framework the Bulk Operations it's been Missing!
       </p>
@@ -55,7 +54,7 @@
       <div class="col-lg-5 col-md-6">
         <h2 class="h4"><i class="bi-arrow-through-heart"></i>&nbsp;Free to Use</h2>
         <p>EFBox is free of charge for the most common databases, opening up a realm of robust data management
-          functionalities without any financial commitments.</a>.</p>
+          functionalities without any financial commitments</a>.</p>
       </div>
       <div class="col-lg-5 col-md-6">
         <h2 class="h4">
@@ -130,19 +129,9 @@
       <h3 class="feature-subtitle">Turbocharge Your Data Operations with EFBox</h3>
     </div>
     <div class="row justify-content-center text-left align-items-center">
-      <div class="col-lg-6 col-md-6">
-        sss
-      </div>
-      <div class="col-lg-6 col-md-6">
-        <div class="highlight"><div class="clipboard"><button class="btn btn-clipboard" aria-label="Clipboard button"></button></div><pre tabindex="0" class="chroma"><code class="language-c#" data-lang="c#"><span class="line"><span class="cl"><span class="c1">// Initiating a new database context</span>
-        </span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="p">(</span><span class="kt">var</span> <span class="n">db</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Context</span><span class="p">())</span> <span class="p">{</span>
-        </span></span><span class="line"><span class="cl">   <span class="c1">// Crafting a collection of demo data</span>
-        </span></span><span class="line"><span class="cl">   <span class="kt">var</span> <span class="n">data</span> <span class="p">=</span> <span class="n">CreateDemoDataCollection</span><span class="p">();</span>
-        </span></span><span class="line"><span class="cl">   <span class="c1">// Employing BulkInsert to swiftly add the data to the database</span>
-        </span></span><span class="line"><span class="cl">   <span class="n">db</span><span class="p">.</span><span class="n">BulkInsert</span><span class="p">(</span><span class="n">data</span><span class="p">);</span>
-        </span></span><span class="line"><span class="cl"><span class="p">}</span>
-        </span></span></code></pre></div>
-      </div>
+      <div class="col-lg-10 col-md-10">
+        {{ .Content }}
+      </div>     
     </div>
   </div>
 </section>
@@ -155,9 +144,9 @@
 <section class="section section-md container-fluid bg-light">
   <div class="row justify-content-center text-center">
     <div class="col-lg-7">
-      <h2 class="mt-2">Speed up your application - now!</h2>
+      <h2 class="mt-2">Speed up your application - for free!</h2>
       <a class="btn btn-primary rounded-pill px-4 my-2"
-        href="/docs/{{ if site.Data.doks.docsVersioning }}{{ site.Data.doks.docsVersion }}/{{ end }}prologue/introduction/"
+        href="/docs/guides/getting-started/"
         role="button">{{ i18n "get-started" }}</a>
     </div>
   </div>
