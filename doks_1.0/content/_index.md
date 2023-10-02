@@ -1,7 +1,7 @@
 ---
 title : "Entity Framework Box"
-description: ""
-summary: ""
+description: "Entity Framework Box Start page"
+summary: "Start page - Bridging ETLBox and Entity Framework with seamless DbContext extensions for efficient bulk operations!"
 lead: "Bridging ETLBox and Entity Framework with seamless DbContext extensions for efficient bulk operations!"
 draft: false
 images: []
