@@ -1,7 +1,7 @@
 ---
-title: "Configure operations"
+title: "Option Tuning"
 description: "Configuring EFBox Options for Optimized Bulk Operations"
-summary: "Tailor BulkInsert, BulkUpdate, BulkDelete, and BulkMerge tasks to your needs by configuring various options. This guide walks through each option, demonstrating how to harness them for more efficient and controlled bulk operations in your database."
+summary: "Deep dive into configuring bulk operations in EFBox, explaining shared and specific options, including examples."
 lead: ""
 draft: false
 images: []
