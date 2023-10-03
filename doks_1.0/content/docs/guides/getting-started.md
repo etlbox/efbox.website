@@ -8,8 +8,8 @@ images: []
 menu:
   docs:
     parent: ""
-    identifier: "example-6a1a6be4373e933280d78ea53de6158e"
-weight: 810
+    identifier: "getting-started"
+weight: 100
 toc: true
 ---
 
@@ -155,3 +155,6 @@ db.BulkMerge(data, options => options.MergeMode = MergeMode.Full);
 The `MergeMode.Full` setting ensures a complete sync, including deletion of data not present in our list. Other modes like `Delta`, `InsertsAndUpdates`, `InsertsOnly`, and `UpdatesOnly` offer different sync scopes. Unlike other bulk operations, `BulkMerge` reads existing rows first from the database, and then determines the corresponding batch operations. It logs the merge result in `ChangeAction` (e.g.,Insert, Update, Delete or Exists) and timestamps in the `ChangeDate` property. You will need to add both properties to your class - ensure that they are marked with `[NotMapped]` to avoid database mapping.
 
 
+## Full Example on GitHub
+
+The entire example, including the code snippets discussed, {{< link-ext text="is available on GitHub" url="https://github.com/etlbox/etlbox.demo/tree/main/EF_GettingStarted" >}}. Feel free to explore it further for a deeper understanding of EF Box and its capabilities.

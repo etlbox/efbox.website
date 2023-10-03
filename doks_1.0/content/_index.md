@@ -35,6 +35,20 @@ using (var db = new Context()) {
 
 Here,we create a database context and demo data, then use `BulkUpdate()` to quickly update the dataset. Fast and simple!
 
+##### Streamlined Data Removal with BulkDelete()
+
+```C#
+// Initiating a new database context
+using (var db = new Context()) {
+   // Preparing a collection of demo data for deletion
+   var dataToDelete = DeleteDemoDataCollection();
+   // Using BulkDelete to swiftly remove the data from the database
+   db.BulkDelete(dataToDelete);
+}
+```
+
+Here we create a database context and demo data for deletion, then use `BulkDelete()` to efficiently remove the specified records from the database. Quick and clean!
+
 ##### One-Step Data Sync with BulkMerge
 
 ```C#
@@ -53,17 +67,3 @@ using (var db = new Context()) {
 ```
 
 Now we employ `BulkMerge()` with `MergeMode` set to `Full`. This way, EFBox smartly handles not only the insertion and updating of data but also identifies and deletes any obsolete records, all in one swift operation. Your data sync tasks just got a whole lot easier and faster!
-
-##### Streamlined Data Removal with BulkDelete()
-
-```C#
-// Initiating a new database context
-using (var db = new Context()) {
-   // Preparing a collection of demo data for deletion
-   var dataToDelete = DeleteDemoDataCollection();
-   // Using BulkDelete to swiftly remove the data from the database
-   db.BulkDelete(dataToDelete);
-}
-```
-
-Here we create a database context and demo data for deletion, then use `BulkDelete()` to efficiently remove the specified records from the database. Quick and clean!
