@@ -35,7 +35,7 @@
 
 [[main]]
   name = "API"
-  url = "/docs/guides/api"
+  url = "/docs/api/efbox/bulkoperations/"
   weight = 20
 
 [[main]]
