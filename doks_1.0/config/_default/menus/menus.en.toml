@@ -40,7 +40,7 @@
 
 [[main]]
   name = "Support"
-  url = "/"
+  url = "/support/"
   weight = 30
   
 [[social]]
@@ -49,12 +49,33 @@
   url = "https://www.nuget.org/packages?q=efbox"    
   weight = 30
 
-[[footer]]
-  name = "Privacy Policy"
-  url = "/privacy/"
-  weight = 10
 
-# [[footer]]
-#   name = "Terms of Service"
-#   url = "/terms/"
-#   weight = 20
+ [[footer_1]]
+   name = "Home"
+   url = "/"
+   weight = 500
+
+ [[footer_1]]
+   name = "Docs"
+   url = "/docs/guides/getting-started"
+   weight = 510
+
+ [[footer_1]]
+   name = "API"
+   url = "/docs/api/efbox/bulkoperations/"
+   weight = 520
+
+ [[footer_2]]
+   name = "Support"
+   url = "/support/"
+   weight = 530
+
+ [[footer_2]]
+   name = "Privacy Policy"
+   url = "/privacy/"
+   weight = 540
+
+ [[footer_2]]
+   name = "License"
+   url = "/std-eula"
+   weight = 560
