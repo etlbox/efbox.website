@@ -16,6 +16,16 @@ In this article, we'll dive into how you can utilize `BulkInsert`, `BulkUpdate`,
 
 This is a straightforward way to handle large datasets with minimal code, showcasing the simplicity and effectiveness of EF Box in managing bulk operations.
 
+## Installing EFBox Packages
+
+To get started with EFBox, you need to install the appropriate NuGet package based on your database type. Here are the available packages:
+
+- For SQL Server: {{<link-ext text="<code>EFBox.SqlServer</code>" url="https://www.nuget.org/packages/EFBox.SqlServer">}}
+- For MySQL: Install {{<link-ext text="<code>EFBox.MySql</code>" url="https://www.nuget.org/packages/EFBox.MySql">}}
+- For PostgreSQL: {{<link-ext text="<code>EFBox.Postgres</code>" url="https://www.nuget.org/packages/EFBox.Postgres">}}
+
+You can install these packages via NuGet Package Manager, Package Manager Console, or by using the dotnet CLI. Ensure you choose the package that corresponds to your database to ensure seamless integration and operation.
+
 ## Preparing the Data Model
 
 Before diving into bulk operations, it's crucial to understand the data model for our example. 

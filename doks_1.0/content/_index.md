@@ -67,3 +67,13 @@ using (var db = new Context()) {
 ```
 
 Now we employ `BulkMerge()` with `MergeMode` set to `Full`. This way, EFBox smartly handles not only the insertion and updating of data but also identifies and deletes any obsolete records, all in one swift operation. Your data sync tasks just got a whole lot easier and faster!
+
+## Kickstart EFBox
+
+Ready to turbocharge your database operations with EFBox? Select your flavor:
+
+- SQL Server aficionado? Grab {{<link-ext text="<code>EFBox.SqlServer</code>" url="https://www.nuget.org/packages/EFBox.SqlServer">}}
+- MySQL enthusiast? Snag {{<link-ext text="<code>EFBox.MySql</code>" url="https://www.nuget.org/packages/EFBox.MySql">}}
+- PostgreSQL fan? Pick {{<link-ext text="<code>EFBox.Postgres</code>" url="https://www.nuget.org/packages/EFBox.Postgres">}}
+
+Install via NuGet Package Manager, dash through the Package Manager Console, or command the dotnet CLI. Match your database, install, and you're on the fast track!
