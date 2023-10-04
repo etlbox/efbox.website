@@ -2,7 +2,6 @@
 title: "Getting started"
 description: "Getting started guide for BulkInsert, BulkUpdate and BulkDelete"
 summary: "Getting Started with EF Box: Simplifying Bulk Insert, Update and Delete"
-lead: ""
 draft: false
 images: []
 menu:

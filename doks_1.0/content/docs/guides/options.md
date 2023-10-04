@@ -2,14 +2,13 @@
 title: "Option Tuning"
 description: "Configuring EFBox Options for Optimized Bulk Operations"
 summary: "Deep dive into configuring bulk operations in EFBox, explaining shared and specific options, including examples."
-lead: ""
 draft: false
 images: []
 menu:
   docs:
     parent: ""
     identifier: "options"
-weight: 810
+weight: 200
 toc: true
 ---
 
