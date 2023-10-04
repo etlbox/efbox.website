@@ -42,7 +42,7 @@ noUgly = true
 rel  = "sitemap"
 
 [sitemap]
-  changefreq = "monthly"
+  changefreq = "weekly"
   filename = "sitemap.xml"
   priority = 0.5
 
@@ -58,7 +58,7 @@ rel  = "sitemap"
 
 [permalinks]
 # blog = "/blog/:slug/"
-  docs = "/docs/:sections[1:]/:slug/"
+# docs = "/docs/:sections[1:]/:slug/"
 # docs = "/docs/1.0/:sections[1:]/:slug/"
 
 [minify.tdewolff.html]

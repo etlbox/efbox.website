@@ -6,4 +6,4 @@
     languageISO = "EN"
     languageTag = "en-US"
     footer = 'Modify footer! <a class="text-muted" href="https://gethyas.com/">Hyas</a>'
-    alertText = '<a class="alert-link stretched-link fw-normal" href="/blog/example-post/">Adjust the alert!!</a>'
+    alertText = '<a class="alert-link stretched-link fw-normal" href="/blog/example-post/">New version just released!</a>'
