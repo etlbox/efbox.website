@@ -13,7 +13,7 @@ By clicking the link, you can make changes and submit a pull request for review.
 
 ## License
 
-This website project itself is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This website project itself is licensed under the MIT License - see the [LICENSE.md](doks_1_0/LICENSE) file for details.
 The [template itself is based on Doks](https://getdoks.org) and utilized the [static site generator Hugo](https://gohugo.io).
 
 ## Support
